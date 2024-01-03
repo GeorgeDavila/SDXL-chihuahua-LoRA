@@ -36,13 +36,13 @@ class Predictor(BasePredictor):
     def predict(
         self,
         myprompt: str = Input(
-            description="Input prompt (TOK is the style-oriented term)",
-            default="A photo in the style of TOK"
+            description="Input prompt",
+            default="A photo of a chihuahua"
         ),
-        #promptAddendum: str = Input(
-        #    description="Trigger term to invoke the LoRA style, added to end of prompt",
-        #    default="<lora:sdxl_glass:1>",
-        #),
+        promptAddendum: str = Input(
+            description="Extra terms to add to end of prompt (TOK is the style-oriented term for this LoRA)",
+            default="in the style of TOK",
+        ),
         negative_prompt: str = Input(
             description="Negative Prompt",
             default="cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render"
