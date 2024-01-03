@@ -12,7 +12,7 @@ tested this lora against base sdxl with same prompt "A photo of a chihuahua" and
 ![chi1](images/chi1.png)
 
 ## Base SDXL
-Often look somewhat "ethereal" for lack of a better word  
+Often look somewhat "ethereal" for lack of a better word. Look at the fur on top of the head. Looks like someone applied a doggy face filter to them, just looks too off. 
 
 ![sdxlchi1](images/sdxlchi1.png)
 ![sdxlchi1](images/sdxlchi2.png)
