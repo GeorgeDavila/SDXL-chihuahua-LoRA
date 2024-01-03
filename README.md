@@ -1,6 +1,6 @@
 # SDXL-chihuahua-LoRA
 
-My cog deployment of a stable-diffusion-xl-base-1.0 Lora finetuned on chihuahua's  https://huggingface.co/GDavila/SDXL-chihuahua-LoRA 
+My cog deployment of a stable-diffusion-xl-base-1.0 Lora finetuned on chihuahua's Replicate API: https://replicate.com/georgedavila/ay-chihuahua-sdxl-lora, Model card: https://huggingface.co/GDavila/SDXL-chihuahua-LoRA 
 
 Why? - Base SDXL is very hit-or-miss with dogs
 
