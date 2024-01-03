@@ -10,4 +10,10 @@ tested this lora against base sdxl with same prompt "A photo of a chihuahua" and
 
 ## Lora
 ![chi1](images/chi1.png)
+
 ## Base SDXL
+Often look somewhat "ethereal" for lack of a better word  
+
+![sdxlchi1](images/sdxlchi1.png)
+![sdxlchi1](images/sdxlchi2.png)
+![sdxlchi1](images/sdxlchi3.png)
